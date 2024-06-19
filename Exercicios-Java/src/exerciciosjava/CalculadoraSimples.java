@@ -22,6 +22,8 @@ public class CalculadoraSimples {
 		System.out.println("/ = DIVISÃO");
 		op = sc.next().charAt(0);
 		
+		/* Estrutura condicional para garantir que seja digitada uma das 4 operações matemáticas,
+		caso contrário, será mostrado um erro*/
 		
 		if(op == '+' || op == '-' || op == '*' || op == '/') {
 		
@@ -54,6 +56,9 @@ public class CalculadoraSimples {
 			
 		case '/':
 			
+			/*Estrutura condicional utilizada para verificar se o denominador é diferente de 0,
+			caso contrário, será mostrado em erro informando que o denominador não pode ser 0.*/
+			 
 			if(n2 == 0) {
 				
 				System.out.println("Erro! Denominador não pode ser igual a 0! Tente outro número");

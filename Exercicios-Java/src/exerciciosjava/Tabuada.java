@@ -10,7 +10,9 @@ public class Tabuada {
 
         System.out.println("Digite um número para saber sua tabuada: ");
         x = sc.nextInt();
-
+        
+        //Laço de repetição para contar de 0 a 10 
+        
         for(i = 0; i <= 10; i++) {
             System.out.println(x + " X " + i + " = " + (x * i));
         }

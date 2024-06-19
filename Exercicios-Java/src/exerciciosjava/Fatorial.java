@@ -8,11 +8,16 @@ public class Fatorial {
         Scanner sc = new Scanner(System.in);
 
         int x;
+        
         int fatorial = 1;
 
         System.out.println("Digite um número para saber seu fatorial: ");
         x = sc.nextInt();
-
+        
+        int y = x;
+        
+        //Laço de repetição utilizado para calcular o fatorial sempre que x for maior ou igual a 1
+    
         while (x >= 1) {
 
             fatorial *= x;
@@ -20,7 +25,7 @@ public class Fatorial {
   
         }
 
-        System.out.println("O fatorial de " + x + " é: " + fatorial);
+        System.out.println("O fatorial de " + y + " é: " + fatorial);
 
 
 
