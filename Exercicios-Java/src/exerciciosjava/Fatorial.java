@@ -14,10 +14,13 @@ public class Fatorial {
         System.out.println("Digite um número para saber seu fatorial: ");
         x = sc.nextInt();
         
+        //Armazena o valor original de x em y
+        
         int y = x;
         
-        //Laço de repetição utilizado para calcular o fatorial sempre que x for maior ou igual a 1
-    
+        /*Laço de repetição utilizado para calcular o fatorial sempre que x for maior ou igual a 1,
+        e em seguida, decrementa o valor de x em 1.*/
+        
         while (x >= 1) {
 
             fatorial *= x;
@@ -26,14 +29,6 @@ public class Fatorial {
         }
 
         System.out.println("O fatorial de " + y + " é: " + fatorial);
-
-
-
-
-
-
-
-
 
 
 
