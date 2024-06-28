@@ -1,6 +1,5 @@
 .classpath
 .project
-/bin/
-.vscode/
+echo -e "bin/\n.vscode/" >> .gitignore
 
 
