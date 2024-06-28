@@ -1,6 +1,7 @@
 .classpath
 .project
 echo -e "bin/\n.vscode/" >> .gitignore
-echo "App.java" >> .gitignore
+*.class
+/bin/
 
 
