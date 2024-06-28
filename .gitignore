@@ -1,7 +1,6 @@
 .classpath
 .project
-Exercicios-Java/bin/
-*.class
+bin/
 .vscode/
 
 
