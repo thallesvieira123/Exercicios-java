@@ -3,6 +3,8 @@ package exerciciosjava;
 import java.util.Scanner;
 
 public class Tabuada {
+
+    //Solicite um número ao usuário e exiba sua tabuada
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

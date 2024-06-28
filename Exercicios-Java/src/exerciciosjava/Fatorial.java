@@ -3,6 +3,8 @@ package exerciciosjava;
 import java.util.Scanner;
 
 public class Fatorial {
+
+    //Solicite um número ao usuário e calcule o seu fatorial
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);

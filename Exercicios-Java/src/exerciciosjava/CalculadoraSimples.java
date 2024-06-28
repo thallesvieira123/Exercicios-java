@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class CalculadoraSimples {
 	 
+	/*Faça uma calculadora que solicite dois números ao usuário, e peça pra ele escolher
+	qual das operações seja realizada*/
+
 	public static void main(String[] args) {
 		
 		double n1 = 0, n2 = 0, result = 0;

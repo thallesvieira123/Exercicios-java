@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class NumeroPrimo {
 
+	//Solicite um número ao usuário e identifique se ele é primo ou não
+
 	public static void main(String[] args) {
 		
 		//Um número é primo quando é divísivel por 1 e por ele mesmo

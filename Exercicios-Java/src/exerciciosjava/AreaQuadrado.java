@@ -3,6 +3,8 @@ package exerciciosjava;
 import java.util.Scanner;
 
 public class AreaQuadrado {
+
+    //Dado um lado do quadrado, calcule a área e o perímetro do quadrado
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);

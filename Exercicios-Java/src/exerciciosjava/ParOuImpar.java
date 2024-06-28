@@ -3,6 +3,8 @@ package exerciciosjava;
 import java.util.Scanner;
 
 public class ParOuImpar {
+
+    //Solicite um número ao usuário e identifique se ele é ímpar ou par
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

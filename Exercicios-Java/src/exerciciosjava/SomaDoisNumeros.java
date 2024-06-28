@@ -3,6 +3,8 @@ package exerciciosjava;
 import java.util.Scanner;
 
 public class SomaDoisNumeros {
+
+    //Solicite dois números ao usuário e calcule a soma dos dois número
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
